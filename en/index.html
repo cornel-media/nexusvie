@@ -359,6 +359,15 @@
     color: var(--ink);
     font-weight: 500;
   }
+  .newsletter-intro { max-width: 680px; color: var(--ink-soft); font-size: 16px; line-height: 1.72; }
+  .newsletter-form { margin-top: 24px; max-width: 680px; }
+  .newsletter-form iframe { display:block; width:100%; height:570px; border:0; background:#f0f0f4; }
+  @media(max-width:600px){ .newsletter-form iframe { height:670px; } }
+  .newsletter-languages { margin-top: 20px; color: var(--ink-soft); }
+  .newsletter-languages a { color: var(--gold); text-decoration: none; margin-left: 12px; }
+  .newsletter-languages a[aria-current="page"] { text-decoration: underline; text-underline-offset: 5px; }
+  .newsletter-privacy { margin-top: 16px; font-size: 12px; }
+  .newsletter-privacy a { color: var(--ink-faint); }
 
   /* Footer */
   footer {
@@ -468,6 +477,7 @@
       <a href="#reflexions">reflections</a>
       <a href="#podcast">podcast</a>
       <a href="#outils">tools</a>
+      <a href="#newsletter">newsletter</a>
       <a href="#about">about</a>
       <span class="language-switch" aria-label="Language"><a href="/" lang="fr">FR</a><span aria-hidden="true">/</span><a href="/en/" lang="en" aria-current="page">EN</a></span>
     </nav>
@@ -521,6 +531,14 @@
     </div>
   </section>
 
+  <section id="newsletter">
+    <div class="section-head"><div class="section-label">newsletter</div></div>
+    <p class="newsletter-intro">Get my new meditations and news from Nexus by email, in French or English. You can unsubscribe at any time.</p>
+    <div class="newsletter-languages">Newsletter language: <a href="/#newsletter" lang="fr">Français</a><a href="#newsletter" lang="en" aria-current="page">English</a></div>
+    <div class="newsletter-form" id="newsletter-signup-en"><iframe title="Nexus newsletter sign-up form" src="https://ecc8c7b2.sibforms.com/v2/serve/MUIFAMnIOeYEnJDYLjAhDOoMX8lLSL5hA338Jt963kqzOM6r8NuNAfsT42gdJI35zuwGtJz8YCsUS2itiPQByBF-u2DO-Q8Fgkz0LinlWfGFmx45J0R_lXypaQm3MIklo9OyO1Yef7cAqHFNqhQu_wkGccAIFr6I0-OuE9iyR2xGowKwJ1LlvEBE6WS-oDauVkVIki_4rVWC4zraeA==" loading="lazy"></iframe></div>
+    <p class="newsletter-privacy"><a href="/en/privacy/">Privacy and data use</a></p>
+  </section>
+
   <section id="about" class="about">
     <div class="section-head">
       <div class="section-label">about</div>
@@ -531,6 +549,7 @@
 
   <footer>
     <div>Chambly, Quebec · <a href="mailto:contact@nexusvie.com">contact@nexusvie.com</a></div>
+    <a href="/en/privacy/">privacy</a>
 
   </footer>
 
