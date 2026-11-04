@@ -41,6 +41,10 @@
   article p { color:var(--soft); margin:0 0 26px; font-size:17px; line-height:1.85; }
   article p:first-child { color:var(--ink); font-size:20px; }
   article p:last-child { color:var(--ink); }
+  .reel { margin:56px auto 0; max-width:360px; text-align:center; }
+  .reel-label { display:flex; align-items:center; justify-content:center; gap:12px; margin:0 0 18px; color:var(--gold); font:300 12px/1.2 'Josefin Sans',sans-serif; text-transform:uppercase; letter-spacing:.22em; }
+  .reel-label::before, .reel-label::after { content:''; width:26px; height:1px; background:var(--burgundy); }
+  .reel video { display:block; width:100%; aspect-ratio:9/16; height:auto; background:#000; border-radius:14px; border:1px solid var(--rule); }
   .endmark { width:42px; height:2px; background:var(--burgundy); margin:52px 0 44px; }
   footer { max-width:690px; margin:88px auto 0; padding-top:25px; border-top:1px solid var(--rule); display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; color:var(--faint); font:300 13px/1.4 'Josefin Sans',sans-serif; letter-spacing:.12em; }
   @media(max-width:640px){.wrap{padding:26px 22px 55px}.logo img{height:38px}main{margin-top:67px}.scripture{margin-top:42px;padding-left:20px}article{margin-top:52px}article p{font-size:16px}article p:first-child{font-size:18px}footer{margin-top:70px}}
@@ -67,6 +71,12 @@
       <p>Ce matin, nous pouvons choisir où ancrer notre cœur. Non pas dans ce qui change chaque jour, mais dans Celui qui ne change pas. Prier pour ceux qui portent des responsabilités. Parler avec douceur à ceux qui ne pensent pas comme nous.</p>
       <p>Les royaumes passent. La paix de Dieu demeure.</p>
     </article>
+    <figure class="reel">
+      <figcaption class="reel-label">La méditation en 30 secondes</figcaption>
+      <video controls playsinline preload="none" poster="/assets/reels/ce-qui-demeure.jpg" aria-label="Reel vidéo de la méditation Ce qui demeure">
+        <source src="/assets/reels/ce-qui-demeure.mp4" type="video/mp4">
+      </video>
+    </figure>
     <div class="endmark" aria-hidden="true"></div>
     <div data-nx-share></div>
     <a class="return" href="/#reflexions">← toutes les réflexions</a>
