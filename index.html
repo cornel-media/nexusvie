@@ -464,8 +464,15 @@
 .hero .signature-line::before { background:var(--burgundy); width:38px; height:2px; }
 @media(max-width:760px){.hero{padding:46px 0 54px}}
 
-  #videos .video-card { padding-top: 0; }
-  #videos .video-thumb { display: block; width: calc(100% + 68px); height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: 0 -34px 12px; }
+  #videos .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 760px; gap: 18px; }
+  #videos .video-card { padding: 0 20px 20px; gap: 10px; }
+  #videos .video-thumb { display: block; width: calc(100% + 40px); height: auto; aspect-ratio: 16 / 9; object-fit: cover; margin: 0 -20px 8px; }
+  #videos .video-card .card-head { display: block; }
+  #videos .video-card .card-name { font-size: 22px; line-height: 1.25; }
+  #videos .video-card .card-tag { display: block; margin-top: 8px; font-size: 10px; }
+  #videos .video-card .card-desc { font-size: 14px; }
+  #videos .video-card .card-foot { margin-top: auto; }
+  @media (max-width: 620px) { #videos .grid { grid-template-columns: 1fr; max-width: 480px; } }
 </style>
 </head>
 <body>
