@@ -557,6 +557,49 @@ section + section { margin-top:94px; }
 .tool-actions a { text-decoration:none; }
 .tool-actions .card-link:hover,.tool-secondary:hover { color:var(--ink); }
 .tool-secondary { color:var(--ink-soft); font:300 12px 'Josefin Sans',sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+
+/* Time markers: calendar-day counters, not false real-time precision. */
+.time-intro{max-width:690px;color:var(--ink-soft);font-size:16px;line-height:1.7;margin:0 0 26px}
+.time-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.time-card{background:var(--black-raised);border:1px solid var(--black-rule);border-top:2px solid var(--burgundy);padding:25px 24px 22px;min-height:270px;display:flex;flex-direction:column}
+.time-kicker{color:var(--gold);font:300 11px 'Josefin Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.time-card h3{font:300 24px/1.25 'Josefin Sans',sans-serif;margin:17px 0 10px;color:var(--ink)}
+.time-date{color:var(--ink-soft);font-size:13px;line-height:1.4}
+.time-count{margin:auto 0 6px;padding-top:22px;color:var(--ink);font:200 clamp(38px,4vw,56px)/1 'Josefin Sans',sans-serif}
+.time-count span{display:block;margin-top:9px;color:var(--gold);font:300 11px/1.35 'Josefin Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.time-source{margin-top:13px;color:var(--ink-faint);font-size:12px;line-height:1.4}
+.time-source a{color:var(--ink-soft);text-decoration:underline;text-underline-offset:3px}
+.time-note{margin-top:16px;color:var(--ink-faint);font-size:12px;line-height:1.5}
+@media(max-width:850px){.time-grid{grid-template-columns:1fr 1fr}.time-card:last-child{grid-column:1/-1}}
+@media(max-width:620px){.time-grid{grid-template-columns:1fr}.time-card:last-child{grid-column:auto}.time-card{min-height:220px}}
+
+/* Navigation: clearer type and larger touch targets. */
+.top { align-items:center; }
+.nav-links { align-items:center; flex-wrap:wrap; gap:10px 20px; font-family:'Inter',sans-serif; font-size:13.5px; font-weight:500; letter-spacing:.055em; }
+.nav-links a { color:#e4dcd2; display:inline-flex; align-items:center; min-height:42px; padding:0 0 2px; }
+.nav-links a:hover,.nav-links a:focus-visible { color:var(--gold); }
+.nav-links a:focus-visible { outline:2px solid var(--gold); outline-offset:5px; }
+.language-switch { border-color:rgba(211,176,120,.38); padding-left:19px; margin-left:1px; }
+.language-switch a { letter-spacing:.04em; }
+@media(max-width:900px) { .top { gap:12px 20px; } .nav-links { width:100%; gap:4px 19px; } }
+@media(max-width:620px) { .nav-links { font-size:13px; gap:0 16px; } .nav-links a { min-height:38px; } .language-switch { padding-left:12px; } }
+
+/* Keep the original editorial menu; improve legibility without a bar. */
+.top { margin-bottom:86px; }
+.nav-links { background:none; border:0; border-radius:0; padding:0; font-family:'Josefin Sans','Inter',sans-serif; font-size:16px; font-weight:300; letter-spacing:.12em; text-transform:lowercase; gap:10px 22px; }
+.nav-links a { color:#eee4d7; min-height:42px; padding:0 0 3px; }
+.nav-links a:hover,.nav-links a:focus-visible { color:var(--gold); }
+.language-switch { border-left:1px solid rgba(211,176,120,.42); padding-left:18px; margin-left:2px; }
+.language-switch a { text-transform:uppercase; letter-spacing:.08em; }
+@media(max-width:900px) { .top { margin-bottom:62px; } .nav-links { width:100%; } }
+@media(max-width:620px) { .nav-links { font-size:14px; gap:3px 17px; } .nav-links a { min-height:38px; } .language-switch { padding-left:12px; } }
+
+/* Center both language separators on the menu text. */
+.language-switch { position:relative; display:inline-flex; align-items:center; align-self:center; height:42px; border-left:0; line-height:1; }
+.language-switch::before { content:''; position:absolute; left:0; top:50%; width:1px; height:22px; transform:translateY(-50%); background:rgba(211,176,120,.42); }
+.language-switch a { display:inline-flex; align-items:center; height:42px; min-height:0; padding:0; line-height:1; }
+.language-switch > span { display:inline-flex; align-items:center; height:42px; line-height:1; color:var(--ink-soft); }
+@media(max-width:620px) { .language-switch,.language-switch a,.language-switch > span { height:38px; } .language-switch::before { height:20px; } }
 </style>
 </head>
 <body>
@@ -629,6 +672,17 @@ section + section { margin-top:94px; }
     </div>
   </section>
 
+  <section id="reperes">
+    <div class="section-head"><div class="section-label">repères du temps</div></div>
+    <p class="time-intro">Quelques dates pour voir le temps autrement. Ces compteurs avancent par jour, au rythme du calendrier.</p>
+    <div class="time-grid">
+      <article class="time-card" data-time-date="2026-07-30"><div class="time-kicker">monde · édition 2026</div><h3>Jour du dépassement de la Terre</h3><div class="time-date">30 juillet 2026</div><div class="time-count"><strong data-count>—</strong><span data-unit>jours depuis</span></div><div class="time-source"><a href="https://overshoot.footprintnetwork.org/newsroom/press-release-june-2026-english/" target="_blank" rel="noopener noreferrer">Global Footprint Network ↗</a></div></article>
+      <article class="time-card" data-time-date="2026-03-08"><div class="time-kicker">Canada · édition 2026</div><h3>Si le monde vivait comme au Canada</h3><div class="time-date">8 mars 2026</div><div class="time-count"><strong data-count>—</strong><span data-unit>jours depuis</span></div><div class="time-source"><a href="https://overshoot.footprintnetwork.org/newsroom/country-overshoot-days/" target="_blank" rel="noopener noreferrer">Global Footprint Network ↗</a></div></article>
+      <article class="time-card" data-time-next-environment><div class="time-kicker">prochain rendez-vous</div><h3>Journée mondiale de l’environnement</h3><div class="time-date" data-date-label>5 juin 2027</div><div class="time-count"><strong data-count>—</strong><span data-unit>jours avant</span></div><div class="time-source"><a href="https://www.un.org/fr/observances/environment-day" target="_blank" rel="noopener noreferrer">Nations Unies ↗</a></div></article>
+    </div>
+    <p class="time-note">Les dates de dépassement sont des estimations publiées pour 2026 et peuvent être révisées.</p>
+  </section>
+
   <section id="newsletter">
     <div class="section-head"><div class="section-label">infolettre</div></div>
     <p class="newsletter-intro">Une lettre pour prendre du recul, découvrir et avancer. J’y partage mes méditations, mes projets et des idées qui valent le détour.</p>
@@ -656,5 +710,33 @@ section + section { margin-top:94px; }
   </footer>
 
 </div>
+<script>
+(function(){
+  const lang = document.documentElement.lang === 'fr' ? 'fr' : 'en';
+  const unit = {fr:{before:'jours avant',after:'jours depuis'},en:{before:'days until',after:'days since'}}[lang];
+  const names = {fr:'fr-CA',en:'en-CA'};
+  function localDay(y,m,d){ return Math.floor(Date.UTC(y,m-1,d)/86400000); }
+  function update(){
+    const now=new Date();
+    const today=localDay(now.getFullYear(),now.getMonth()+1,now.getDate());
+    document.querySelectorAll('[data-time-date]').forEach(el=>{
+      const [y,m,d]=el.dataset.timeDate.split('-').map(Number);
+      const diff=today-localDay(y,m,d);
+      el.querySelector('[data-count]').textContent=Math.abs(diff).toLocaleString(names[lang]);
+      el.querySelector('[data-unit]').textContent=diff>=0?unit.after:unit.before;
+    });
+    const env=document.querySelector('[data-time-next-environment]');
+    if(env){
+      let y=now.getFullYear();
+      if(today>=localDay(y,6,5))y++;
+      const diff=localDay(y,6,5)-today;
+      env.querySelector('[data-count]').textContent=diff.toLocaleString(names[lang]);
+      env.querySelector('[data-unit]').textContent=unit.before;
+      env.querySelector('[data-date-label]').textContent=new Intl.DateTimeFormat(names[lang],{day:'numeric',month:'long',year:'numeric'}).format(new Date(y,5,5));
+    }
+  }
+  update();setInterval(update,3600000);
+})();
+</script>
 </body>
 </html>
