@@ -600,6 +600,18 @@ section + section { margin-top:94px; }
 .language-switch a { display:inline-flex; align-items:center; height:42px; min-height:0; padding:0; line-height:1; }
 .language-switch > span { display:inline-flex; align-items:center; height:42px; line-height:1; color:var(--ink-soft); }
 @media(max-width:620px) { .language-switch,.language-switch a,.language-switch > span { height:38px; } .language-switch::before { height:20px; } }
+
+/* curiosités · cartes compactes */
+.cx-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.cx-card{min-width:0;display:flex;gap:16px;align-items:center;padding:12px;border:1px solid #38302F;border-radius:4px;text-decoration:none;color:#F5F0E8;background:rgba(255,255,255,.015);transition:border-color .2s}
+.cx-card:hover{border-color:#D3B078}
+.cx-thumb{flex:0 0 132px;width:132px;height:99px;object-fit:cover;border-radius:2px;display:block}
+.cx-copy{min-width:0}
+.cx-kicker{color:#D3B078;font:300 11px/1.3 'Josefin Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.cx-title{margin-top:6px;font:300 19px/1.25 'Josefin Sans',sans-serif;color:#F5F0E8}
+.cx-desc{margin-top:6px;color:#A39688;font-size:13px;line-height:1.45;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cx-more{margin-top:6px;color:#D3B078;font:300 12px/1.3 'Josefin Sans',sans-serif;letter-spacing:.12em}
+@media(max-width:760px){.cx-grid{grid-template-columns:minmax(0,1fr)}.cx-thumb{flex-basis:108px;width:108px;height:81px}.cx-title{font-size:17px}}
 </style>
 </head>
 <body>
@@ -641,15 +653,15 @@ section + section { margin-top:94px; }
       <div class="section-label">curiosités</div>
       <a href="/curiosites/" class="section-link">toutes les curiosités</a>
     </div>
-    <div class="grid" style="gap:18px"><a href="/curiosites/ia-proteines-sur-mesure/" class="card featured-card"><div class="featured-image-wrap"><img class="featured-image" src="/assets/curiosites/ia-proteines-sur-mesure.jpg" alt="Fiole de verre lumineuse, verte, à la lueur d’une bougie" loading="lazy" decoding="async"></div><div class="featured-copy"><div class="featured-kicker">Curiosité IA · 3 nov. 2026</div><div class="card-name">Décrire une protéine avec des mots… et l’IA la dessine</div><div class="card-desc">Des chercheurs de l’Université Westlake, en Chine, ont créé Pinal, une IA qui propose des protéines à partir d’une simple phrase, comme « une protéine qui brille en vert ». Les essais en laboratoire sont encourageants mais modestes : sur 29 protéines lumineuses testées, une seule a vraiment brillé.</div><div class="card-foot"><div class="card-link">lire la suite →</div></div></div></a><a href="/curiosites/ia-bacteries-pandemies/" class="card featured-card"><div class="featured-image-wrap"><img class="featured-image" src="/assets/curiosites/ia-bacteries-pandemies.jpg" alt="Microscope et boîte de Petri au crépuscule" loading="lazy" decoding="async"></div><div class="featured-copy"><div class="featured-kicker">Curiosité IA · 3 nov. 2026</div><div class="card-name">Repérer une bactérie dangereuse avant le premier malade</div><div class="card-desc">À l’Université technique du Danemark, des chercheurs ont mis au point PathogenFinder2, une IA qui estime si une bactérie encore inconnue pourrait rendre malade. Entraînée sur plus de 21 000 génomes, elle pourrait analyser par exemple les eaux usées pour donner l’alerte plus tôt.</div><div class="card-foot"><div class="card-link">lire la suite →</div></div></div></a><a href="/curiosites/ia-pierres-shivta/" class="card featured-card"><div class="featured-image-wrap"><img class="featured-image" src="/assets/curiosites/ia-pierres-shivta.jpg" alt="Arches de pierre anciennes dans le désert au coucher du soleil" loading="lazy" decoding="async"></div><div class="featured-copy"><div class="featured-kicker">Curiosité IA · 2 nov. 2026</div><div class="card-name">250 000 pierres racontent l’histoire d’un village ancien</div><div class="card-desc">À Shivta, dans le désert du Néguev, des chercheurs de l’Université de Haïfa ont photographié les ruines par drone et laissé une IA mesurer chaque pierre, une à une. Ils ont ainsi retracé comment le village a grandi entre le IIe et le VIe siècle, époque où l’on y a bâti trois églises, et découvert une ancienne limite jusque-là inconnue.</div><div class="card-foot"><div class="card-link">lire la suite →</div></div></div></a><a href="/curiosites/ia-meteo-semaines/" class="card featured-card"><div class="featured-image-wrap"><img class="featured-image" src="/assets/curiosites/ia-meteo-semaines.jpg" alt="Champ québécois au crépuscule sous les nuages, avec une girouette" loading="lazy" decoding="async"></div><div class="featured-copy"><div class="featured-kicker">Curiosité IA · 3 nov. 2026</div><div class="card-name">Une météo un peu plus fiable trois à quatre semaines à l’avance</div><div class="card-desc">Une équipe incluant une chercheuse de l’Université de Toronto a créé un outil qui apprend des erreurs passées des prévisions et les corrige. Pour les tendances à trois ou quatre semaines (plus chaud, plus froid, plus sec, plus humide), il a doublé la justesse d’un modèle météo d’IA.</div><div class="card-foot"><div class="card-link">lire la suite →</div></div></div></a></div>
+    <div class="cx-grid"><a href="/curiosites/ia-proteines-sur-mesure/" class="cx-card"><img class="cx-thumb" src="/assets/curiosites/ia-proteines-sur-mesure.jpg" alt="Fiole de verre lumineuse, verte, à la lueur d’une bougie" loading="eager" decoding="async"><div class="cx-copy"><div class="cx-kicker">Curiosité IA · 3 nov. 2026</div><div class="cx-title">Décrire une protéine avec des mots… et l’IA la dessine</div><div class="cx-desc" title="Des chercheurs de l’Université Westlake, en Chine, ont créé Pinal, une IA qui propose des protéines à partir d’une simple phrase, comme « une protéine qui brille en vert ».">Des chercheurs de l’Université Westlake, en Chine, ont créé Pinal, une IA qui propose des protéines à partir d’une simple phrase, comme « une protéine qui brille en vert ».</div><div class="cx-more">lire la suite →</div></div></a><a href="/curiosites/ia-bacteries-pandemies/" class="cx-card"><img class="cx-thumb" src="/assets/curiosites/ia-bacteries-pandemies.jpg" alt="Microscope et boîte de Petri au crépuscule" loading="eager" decoding="async"><div class="cx-copy"><div class="cx-kicker">Curiosité IA · 3 nov. 2026</div><div class="cx-title">Repérer une bactérie dangereuse avant le premier malade</div><div class="cx-desc" title="À l’Université technique du Danemark, des chercheurs ont mis au point PathogenFinder2, une IA qui estime si une bactérie encore inconnue pourrait rendre malade.">À l’Université technique du Danemark, des chercheurs ont mis au point PathogenFinder2, une IA qui estime si une bactérie encore inconnue pourrait rendre malade.</div><div class="cx-more">lire la suite →</div></div></a><a href="/curiosites/ia-pierres-shivta/" class="cx-card"><img class="cx-thumb" src="/assets/curiosites/ia-pierres-shivta.jpg" alt="Arches de pierre anciennes dans le désert au coucher du soleil" loading="eager" decoding="async"><div class="cx-copy"><div class="cx-kicker">Curiosité IA · 2 nov. 2026</div><div class="cx-title">250 000 pierres racontent l’histoire d’un village ancien</div><div class="cx-desc" title="À Shivta, dans le désert du Néguev, des chercheurs de l’Université de Haïfa ont photographié les ruines par drone et laissé une IA mesurer chaque pierre, une à une.">À Shivta, dans le désert du Néguev, des chercheurs de l’Université de Haïfa ont photographié les ruines par drone et laissé une IA mesurer chaque pierre, une à une.</div><div class="cx-more">lire la suite →</div></div></a></div>
   </section>
 
 
   <section id="videos">
     <div class="section-head"><div class="section-label">vidéos</div></div>
     <div class="grid">
-      <a href="https://www.youtube.com/watch?v=G__wm7oVfu4" class="card video-card" target="_blank" rel="noopener noreferrer"><img class="video-thumb" src="/assets/videos/inspiraction-38.jpg" alt="Miniature YouTube d’InspirAction 38 avec Cornel Serban" loading="lazy" decoding="async"><div class="card-head"><div class="card-name">La mort n’aura pas le dernier mot&nbsp;!</div><div class="card-tag">InspirAction 38 · 2 nov. 2026</div></div><div class="card-desc">L’épisode de cette semaine, publié par Adventiste Québec.</div><div class="card-foot"><div class="card-link">voir la vidéo →</div><div class="card-nexus">YouTube</div></div></a>
-      <a href="https://www.youtube.com/watch?v=FX6jyCg13SI&amp;t=21s" class="card video-card" target="_blank" rel="noopener noreferrer"><img class="video-thumb" src="/assets/videos/il-est-ecrit-veuve-nain.jpg" alt="Miniature YouTube de l’émission Il Est Écrit sur la veuve de Naïn" loading="lazy" decoding="async"><div class="card-head"><div class="card-name">Quand la vie croise la mort</div><div class="card-tag">Il Est Écrit</div></div><div class="card-desc">La veuve de Naïn — une émission à laquelle je participe.</div><div class="card-foot"><div class="card-link">voir la vidéo →</div><div class="card-nexus">YouTube</div></div></a>
+      <a href="https://www.youtube.com/watch?v=G__wm7oVfu4" class="card video-card" target="_blank" rel="noopener noreferrer"><img class="video-thumb" src="/assets/videos/inspiraction-38.jpg" alt="Miniature YouTube d’InspirAction 38 avec Cornel Serban" loading="eager" decoding="async"><div class="card-head"><div class="card-name">La mort n’aura pas le dernier mot&nbsp;!</div><div class="card-tag">InspirAction 38 · 2 nov. 2026</div></div><div class="card-desc">L’épisode de cette semaine, publié par Adventiste Québec.</div><div class="card-foot"><div class="card-link">voir la vidéo →</div><div class="card-nexus">YouTube</div></div></a>
+      <a href="https://www.youtube.com/watch?v=FX6jyCg13SI&amp;t=21s" class="card video-card" target="_blank" rel="noopener noreferrer"><img class="video-thumb" src="/assets/videos/il-est-ecrit-veuve-nain.jpg" alt="Miniature YouTube de l’émission Il Est Écrit sur la veuve de Naïn" loading="eager" decoding="async"><div class="card-head"><div class="card-name">Quand la vie croise la mort</div><div class="card-tag">Il Est Écrit</div></div><div class="card-desc">La veuve de Naïn — une émission à laquelle je participe.</div><div class="card-foot"><div class="card-link">voir la vidéo →</div><div class="card-nexus">YouTube</div></div></a>
     </div>
   </section>
 
@@ -684,7 +696,7 @@ section + section { margin-top:94px; }
 
   <section id="reperes">
     <div class="section-head"><div class="section-label">repères du temps</div></div>
-    <p class="time-intro">Quelques dates pour voir le temps autrement. Ces compteurs avancent par jour, au rythme du calendrier.</p>
+    <p class="time-intro">Quelques repères pour situer notre instant : certains avancent au rythme du calendrier, d’autres en temps réel.</p>
 <!-- ═══ Nexus · Sabbat (nx-sabbat) — à coller dans <section id="reperes">, juste avant <div class="time-grid"> ═══ -->
 <style>
 .nx-sabbat-card{margin:0 0 16px;min-height:0}
@@ -998,6 +1010,17 @@ section + section { margin-top:94px; }
       <article class="time-card" data-time-next-environment><div class="time-kicker">prochain rendez-vous</div><h3>Journée mondiale de l’environnement</h3><div class="time-date" data-date-label>5 juin 2027</div><div class="time-count"><strong data-count>—</strong><span data-unit>jours avant</span></div><div class="time-source"><a href="https://www.un.org/fr/observances/environment-day" target="_blank" rel="noopener noreferrer">Nations Unies ↗</a></div></article>
     </div>
     <p class="time-note">Les dates de dépassement sont des estimations publiées pour 2026 et peuvent être révisées.</p>
+  <div class="nx-monde-head">Monde</div>
+<div class="time-grid nx-monde" role="group" aria-label="Monde"><article class="time-card" title="Estimation calculée à partir des Perspectives de la population mondiale 2024 des Nations Unies (variante moyenne) : 8,301 milliards au 1er juillet 2026 ; 132 503 469 naissances et 63 637 314 décès prévus en 2026. Moyennes réparties uniformément, pas un comptage réel."><div class="time-kicker">monde · estimation ONU</div><h3>Population mondiale</h3><div class="time-count"><strong class="nx-monde-count" data-nx-monde="pop">—</strong><span>estimation en direct</span></div><div class="time-source"><a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">Nations Unies, WPP 2024 ↗</a></div></article><article class="time-card" title="Estimation calculée à partir des Perspectives de la population mondiale 2024 des Nations Unies (variante moyenne) : 8,301 milliards au 1er juillet 2026 ; 132 503 469 naissances et 63 637 314 décès prévus en 2026. Moyennes réparties uniformément, pas un comptage réel."><div class="time-kicker">monde · estimation ONU</div><h3>Naissances aujourd’hui</h3><div class="time-count"><strong class="nx-monde-count" data-nx-monde="births">—</strong><span>depuis minuit</span></div><div class="time-source"><a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">Nations Unies, WPP 2024 ↗</a></div></article><article class="time-card" title="Estimation calculée à partir des Perspectives de la population mondiale 2024 des Nations Unies (variante moyenne) : 8,301 milliards au 1er juillet 2026 ; 132 503 469 naissances et 63 637 314 décès prévus en 2026. Moyennes réparties uniformément, pas un comptage réel."><div class="time-kicker">monde · estimation ONU</div><h3>Décès aujourd’hui</h3><div class="time-count"><strong class="nx-monde-count" data-nx-monde="deaths">—</strong><span>depuis minuit</span></div><div class="time-source"><a href="https://population.un.org/wpp/" target="_blank" rel="noopener noreferrer">Nations Unies, WPP 2024 ↗</a></div></article></div>
+<p class="time-note">Estimation calculée à partir des Perspectives de la population mondiale 2024 des Nations Unies (variante moyenne) : 8,301 milliards au 1er juillet 2026 ; 132 503 469 naissances et 63 637 314 décès prévus en 2026. Moyennes réparties uniformément, pas un comptage réel.</p>
+<script>
+(function(){var P0=8301e6,T0=Date.UTC(2026,6,1),B=132503469,D=63637314,Y=365*864e5,loc="fr-CA";
+var f=new Intl.NumberFormat(loc),els=document.querySelectorAll("[data-nx-monde]");
+function tick(){var n=Date.now(),m=new Date(n);m.setHours(0,0,0,0);var day=(n-m.getTime())/Y;
+var v={pop:P0+(B-D)*(n-T0)/Y,births:B*day,deaths:D*day};
+els.forEach(function(e){e.textContent=f.format(Math.floor(v[e.getAttribute("data-nx-monde")]))});}
+tick();setInterval(tick,500);})();
+</script>
   </section>
 
   <section id="newsletter">
@@ -1055,5 +1078,45 @@ section + section { margin-top:94px; }
   update();setInterval(update,3600000);
 })();
 </script>
+<style id="nx-compact">
+/* Accueil · cartes compactes (aperçu) */
+#reflexions .featured-card{grid-template-columns:150px minmax(0,1fr);min-height:0;align-items:center;padding:12px;gap:16px}
+#reflexions .featured-image-wrap{min-height:0;height:auto;aspect-ratio:4/3;border-radius:2px}
+#reflexions .featured-copy{padding:0;gap:6px}
+#reflexions .featured-card .card-name{font-size:21px;line-height:1.2}
+#reflexions .featured-card .card-desc{font-size:13px;line-height:1.45;max-width:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#reflexions .featured-card .card-foot{margin-top:4px;padding-top:0;border-top:0}
+#reflexions .featured-kicker{font-size:10.5px}
+#videos .video-card{display:grid;grid-template-columns:150px minmax(0,1fr);column-gap:16px;row-gap:4px;padding:12px;align-content:center}
+#videos .video-card .video-thumb{grid-row:1/span 3;width:150px;margin:0;aspect-ratio:16/9;align-self:center;border-radius:2px}
+#videos .video-card .card-name{font-size:19px}
+#videos .video-card .card-desc{font-size:13px;line-height:1.45}
+#videos .video-card .card-foot{margin-top:2px;padding-top:0;border-top:0}
+#reperes .time-intro{margin-bottom:16px;font-size:15px}
+#reperes .time-grid{gap:12px}
+#reperes .time-card{min-height:0;padding:14px 16px 12px}
+#reperes .time-card h3{font-size:18px;margin:8px 0 4px}
+#reperes .time-count{padding-top:10px;font-size:30px;margin-bottom:2px}
+#reperes .time-count span{margin-top:5px;font-size:10px}
+#reperes .time-source{margin-top:8px;font-size:11px}
+#reperes .nx-sabbat-card,#reperes .nx-silence-card{margin-bottom:12px}
+#reperes .nx-sabbat-count{margin:12px 0 2px}
+#reperes .nx-sabbat-unit strong{font-size:30px}
+#reperes .nx-sabbat-unit span{margin-top:5px;font-size:10px}
+#reperes .nx-sabbat-status{margin-top:8px}
+.nx-monde-head{margin:22px 0 10px;color:var(--gold);font:300 11px 'Josefin Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase}
+#reperes .nx-monde-count{font-variant-numeric:tabular-nums}
+@media(max-width:760px){#reflexions .featured-card,#videos .video-card{grid-template-columns:108px minmax(0,1fr)}#videos .video-card .video-thumb{width:108px}#reflexions .featured-card .card-name{font-size:18px}#videos .video-card .card-name{font-size:17px}}
+@media(max-width:620px){#reperes .time-grid{grid-template-columns:minmax(0,1fr)}#reperes .time-card:last-child{grid-column:auto}#reperes .time-count{font-size:26px}}
+#outils .tool-card{padding:16px 18px 14px;gap:8px}
+#outils .tool-card .card-name{font-size:22px}
+#outils .tool-card .card-desc,#outils .tool-invite{font-size:13.5px;line-height:1.55;margin:0}
+#reflexions .grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+#reperes .nx-silence-body{margin:12px 0 4px;gap:18px}
+#reperes .nx-silence-ring{width:96px;height:96px}
+#reperes .nx-silence-time{font-size:26px}
+#reperes .nx-silence-msg{margin-top:8px}
+@media(max-width:760px){#reflexions .grid{grid-template-columns:minmax(0,1fr)!important}}
+</style>
 </body>
 </html>
