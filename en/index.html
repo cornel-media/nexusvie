@@ -675,6 +675,313 @@ section + section { margin-top:94px; }
   <section id="reperes">
     <div class="section-head"><div class="section-label">time markers</div></div>
     <p class="time-intro">A few dates that put time in perspective. These counters change by calendar day.</p>
+<!-- ═══ Nexus · Sabbat (nx-sabbat) (EN) ═══ -->
+<style>
+.nx-sabbat-card{margin:0 0 16px;min-height:0}
+.nx-sabbat-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px 24px;flex-wrap:wrap}
+.nx-sabbat-top h3{margin-bottom:6px}
+.nx-sabbat-city{display:flex;flex-direction:column;gap:6px;min-width:190px}
+.nx-sabbat-city label{color:var(--ink-faint,#6B6A62);font:300 11px 'Josefin Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.nx-sabbat-city select{appearance:none;-webkit-appearance:none;background:var(--black,#0D0D0D) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23C9A96E'/%3E%3C/svg%3E") no-repeat right 12px center;border:1px solid var(--black-rule,#262522);color:var(--ink,#F5F0E8);font:400 14px 'Inter',sans-serif;padding:9px 34px 9px 12px;border-radius:0;cursor:pointer}
+.nx-sabbat-city select:focus-visible{outline:2px solid var(--gold,#C9A96E);outline-offset:2px}
+.nx-sabbat-lead{color:var(--ink-soft,#B5AFA2);font-size:14px;line-height:1.55;margin-top:4px}
+.nx-sabbat-count{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:26px 0 4px;padding-top:4px}
+.nx-sabbat-unit{border-left:1px solid var(--black-rule,#262522);padding-left:14px}
+.nx-sabbat-unit:first-child{border-left:0;padding-left:0}
+.nx-sabbat-unit strong{display:block;color:var(--ink,#F5F0E8);font:400 clamp(38px,6vw,56px)/1 'Josefin Sans',sans-serif;font-variant-numeric:tabular-nums}
+.nx-sabbat-unit span{display:block;margin-top:9px;color:var(--gold,#C9A96E);font:300 11px/1.35 'Josefin Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.nx-sabbat-card.is-sabbath{border-top-color:var(--gold,#C9A96E)}
+.nx-sabbat-card .time-date{margin-top:14px}
+.nx-sabbat-status{color:var(--gold,#C9A96E);font:300 15px 'Josefin Sans',sans-serif;letter-spacing:.06em;margin-top:18px;min-height:1px}
+.nx-sabbat-status:empty{display:none}
+@media(max-width:620px){.nx-sabbat-count{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:22px}.nx-sabbat-unit:nth-child(3){border-left:0;padding-left:0}.nx-sabbat-city{width:100%}}
+</style>
+
+<article class="time-card nx-sabbat-card" id="nx-sabbat" aria-live="off">
+  <div class="nx-sabbat-top">
+    <div>
+      <div class="time-kicker">every week · Sabbath</div>
+      <h3 data-nx-sabbat-title>Before the Sabbath</h3>
+      <p class="nx-sabbat-lead" data-nx-sabbat-lead>Until sunset on Friday — the beginning of the Sabbath.</p>
+    </div>
+    <div class="nx-sabbat-city">
+      <label for="nx-sabbat-select">City</label>
+      <select id="nx-sabbat-select">
+        <option value="quebec">Québec</option>
+        <option value="montreal">Montréal</option>
+        <option value="ottawa">Ottawa</option>
+        <option value="toronto">Toronto</option>
+        <option value="paris">Paris</option>
+        <option value="bucuresti">Bucharest</option>
+        <option value="geo">My location</option>
+      </select>
+    </div>
+  </div>
+  <div class="nx-sabbat-status" data-nx-sabbat-status></div>
+  <div class="nx-sabbat-count" role="timer" aria-label="Time remaining">
+    <div class="nx-sabbat-unit"><strong data-nx-sabbat-d>—</strong><span>days</span></div>
+    <div class="nx-sabbat-unit"><strong data-nx-sabbat-h>—</strong><span>hours</span></div>
+    <div class="nx-sabbat-unit"><strong data-nx-sabbat-m>—</strong><span>minutes</span></div>
+    <div class="nx-sabbat-unit"><strong data-nx-sabbat-s>—</strong><span>seconds</span></div>
+  </div>
+  <div class="time-date" data-nx-sabbat-when>&nbsp;</div>
+  <div class="time-source">“Remember the Sabbath day, to keep it holy.” — Exodus 20:8 · “From evening to evening” — Leviticus 23:32<br>Sunset calculated locally (NOAA algorithm), accurate to within a minute or two.</div>
+</article>
+
+<script>
+(function(){
+  'use strict';
+  var RAD=Math.PI/180, DEG=180/Math.PI;
+  var CITIES={
+    quebec:{name:'Québec',lat:46.8139,lon:-71.2080,tz:'America/Toronto'},
+    montreal:{name:'Montréal',lat:45.5019,lon:-73.5674,tz:'America/Toronto'},
+    ottawa:{name:'Ottawa',lat:45.4215,lon:-75.6972,tz:'America/Toronto'},
+    toronto:{name:'Toronto',lat:43.6532,lon:-79.3832,tz:'America/Toronto'},
+    paris:{name:'Paris',lat:48.8566,lon:2.3522,tz:'Europe/Paris'},
+    bucuresti:{name:'Bucharest',lat:44.4268,lon:26.1025,tz:'Europe/Bucharest'}
+  };
+  var DEFAULT='quebec', KEY='nx-sabbat-city', KEY_GEO='nx-sabbat-geo';
+
+  /* ---- NOAA solar calculator (Meeus) ---- */
+  function jc(jd){return (jd-2451545)/36525;}
+  function geomMeanLong(t){var L=280.46646+t*(36000.76983+0.0003032*t);return ((L%360)+360)%360;}
+  function geomMeanAnom(t){return 357.52911+t*(35999.05029-0.0001537*t);}
+  function eccent(t){return 0.016708634-t*(0.000042037+0.0000001267*t);}
+  function eqCenter(t){var m=geomMeanAnom(t)*RAD;return Math.sin(m)*(1.914602-t*(0.004817+0.000014*t))+Math.sin(2*m)*(0.019993-0.000101*t)+Math.sin(3*m)*0.000289;}
+  function appLong(t){var o=125.04-1934.136*t;return geomMeanLong(t)+eqCenter(t)-0.00569-0.00478*Math.sin(o*RAD);}
+  function obliq(t){var e0=23+(26+((21.448-t*(46.815+t*(0.00059-t*0.001813))))/60)/60;var o=125.04-1934.136*t;return e0+0.00256*Math.cos(o*RAD);}
+  function declin(t){return Math.asin(Math.sin(obliq(t)*RAD)*Math.sin(appLong(t)*RAD))*DEG;}
+  function eqTime(t){var e=obliq(t),L=geomMeanLong(t)*RAD,ec=eccent(t),m=geomMeanAnom(t)*RAD,y=Math.tan(e*RAD/2);y*=y;
+    var E=y*Math.sin(2*L)-2*ec*Math.sin(m)+4*ec*y*Math.sin(m)*Math.cos(2*L)-0.5*y*y*Math.sin(4*L)-1.25*ec*ec*Math.sin(2*m);return 4*E*DEG;}
+  function hourAngle(lat,dec){var c=(Math.cos(90.833*RAD)/(Math.cos(lat*RAD)*Math.cos(dec*RAD))-Math.tan(lat*RAD)*Math.tan(dec*RAD));
+    if(c<-1||c>1)return NaN;return Math.acos(c)*DEG;}
+  /* Sunset for civil date y-m-d at lat/lon → Date (UTC instant), or null (polar). */
+  function sunset(y,m,d,lat,lon){
+    var day0=Date.UTC(y,m-1,d), jd=day0/86400000+2440587.5;
+    var mins=720-4*lon; /* first guess: local solar noon (min UTC) */
+    for(var i=0;i<3;i++){
+      var t=jc(jd+mins/1440), ha=hourAngle(lat,declin(t));
+      if(isNaN(ha))return null;
+      mins=720-4*(lon-ha)-eqTime(t);
+    }
+    return new Date(day0+Math.round(mins*60)*1000);
+  }
+  /* Civil date + weekday of an instant in an IANA zone. */
+  function zoned(date,tz){
+    var p={};new Intl.DateTimeFormat('en-US',{timeZone:tz,year:'numeric',month:'numeric',day:'numeric',weekday:'short'})
+      .formatToParts(date).forEach(function(x){p[x.type]=x.value;});
+    return {y:+p.year,m:+p.month,d:+p.day,w:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday)};
+  }
+  function addDays(c,n){var t=new Date(Date.UTC(c.y,c.m-1,c.d+n));return {y:t.getUTCFullYear(),m:t.getUTCMonth()+1,d:t.getUTCDate()};}
+  function ss(c,loc){
+    /* The sun can set after local midnight UTC-wise; pick the sunset falling on that civil date in the zone. */
+    var s=sunset(c.y,c.m,c.d,loc.lat,loc.lon);if(!s)return null;
+    var z=zoned(s,loc.tz),diff=Date.UTC(z.y,z.m-1,z.d)-Date.UTC(c.y,c.m-1,c.d);
+    if(diff!==0)s=sunset(c.y,c.m,c.d-diff/86400000,loc.lat,loc.lon);
+    return s;
+  }
+  /* → {inSabbath, target(Date), start(Date), end(Date)} */
+  function nextSabbath(now,loc){
+    var today=zoned(now,loc.tz), fri=addDays(today,-((today.w-5+7)%7));
+    for(var k=0;k<3;k++){
+      var start=ss(fri,loc), end=ss(addDays(fri,1),loc);
+      if(!start||!end){ /* no sunset (polar latitudes): fall back to ~6 PM */
+        start=start||new Date(Date.UTC(fri.y,fri.m-1,fri.d,18)-tzOffset(loc.tz,now));
+        var sa=addDays(fri,1);end=end||new Date(Date.UTC(sa.y,sa.m-1,sa.d,18)-tzOffset(loc.tz,now));
+      }
+      if(now<end)return {inSabbath:now>=start,target:now>=start?end:start,start:start,end:end};
+      fri=addDays(fri,7);
+    }
+  }
+  function tzOffset(tz,d){var z=new Date(d.toLocaleString('en-US',{timeZone:tz}));var u=new Date(d.toLocaleString('en-US',{timeZone:'UTC'}));return z-u;}
+
+  var core={sunset:sunset,sunsetOn:ss,nextSabbath:nextSabbath,cities:CITIES};
+  if(typeof window!=='undefined')window.nxSabbatCore=core;
+  if(typeof module!=='undefined'&&module.exports)module.exports=core;
+
+  /* ---- UI ---- */
+  if(typeof document==='undefined')return;
+  var root=document.getElementById('nx-sabbat');if(!root)return;
+  var q=function(s){return root.querySelector(s);};
+  var sel=q('#nx-sabbat-select'),els={d:q('[data-nx-sabbat-d]'),h:q('[data-nx-sabbat-h]'),m:q('[data-nx-sabbat-m]'),s:q('[data-nx-sabbat-s]')};
+  var title=q('[data-nx-sabbat-title]'),lead=q('[data-nx-sabbat-lead]'),when=q('[data-nx-sabbat-when]'),status=q('[data-nx-sabbat-status]');
+  var loc=null,state=null,timer=null;
+  function store(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+  function load(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+  function fmt(d,tz){
+    var s=new Intl.DateTimeFormat('en-CA',{timeZone:tz,weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(d);
+    var h=new Intl.DateTimeFormat('en-CA',{timeZone:tz,hour:'numeric',minute:'2-digit',hour12:true}).format(d).replace(/a\.m\./i,'AM').replace(/p\.m\./i,'PM');
+    return s+' at '+h;
+  }
+  function pad(n){return n<10?'0'+n:''+n;}
+  function tick(){
+    if(!loc)return;
+    var now=new Date();
+    if(!state||now>=state.target)state=nextSabbath(now,loc);
+    var ms=Math.max(0,state.target-now),t=Math.floor(ms/1000);
+    els.d.textContent=Math.floor(t/86400);els.h.textContent=pad(Math.floor(t%86400/3600));
+    els.m.textContent=pad(Math.floor(t%3600/60));els.s.textContent=pad(t%60);
+    root.classList.toggle('is-sabbath',state.inSabbath);
+    if(state.inSabbath){
+      title.textContent='The Sabbath has begun';
+      lead.textContent='Time remaining until sunset on Saturday — the end of the Sabbath. Happy Sabbath!';
+      when.textContent='Sabbath ends in '+loc.name+': '+fmt(state.end,loc.tz)+' (local time)';
+    }else{
+      title.textContent='Before the Sabbath';
+      lead.textContent='Until sunset on Friday — the beginning of the Sabbath.';
+      when.textContent='Sunset in '+loc.name+': '+fmt(state.start,loc.tz)+' (local time)';
+    }
+  }
+  function setLoc(l){loc=l;state=null;status.textContent='';tick();if(!timer)timer=setInterval(tick,1000);}
+  function useCity(key){if(!CITIES[key])key=DEFAULT;sel.value=key;store(KEY,key);setLoc(CITIES[key]);}
+  function useGeo(){
+    var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'America/Toronto';
+    var saved=load(KEY_GEO);
+    if(saved){try{var g=JSON.parse(saved);if(g&&isFinite(g.lat)){setLoc({name:'your location',lat:g.lat,lon:g.lon,tz:tz});}}catch(e){}}
+    if(!navigator.geolocation){status.textContent='Geolocation is not available; please choose a city.';return;}
+    if(!saved)status.textContent='Finding your location…';
+    navigator.geolocation.getCurrentPosition(function(p){
+      var g={lat:+p.coords.latitude.toFixed(3),lon:+p.coords.longitude.toFixed(3)};
+      store(KEY_GEO,JSON.stringify(g));store(KEY,'geo');
+      setLoc({name:'your location',lat:g.lat,lon:g.lon,tz:tz});
+    },function(){
+      if(!load(KEY_GEO)){status.textContent='Location not allowed — showing '+CITIES[DEFAULT].name+' instead.';var s=status.textContent;useCity(DEFAULT);status.textContent=s;}
+    },{timeout:10000,maximumAge:86400000});
+  }
+  sel.addEventListener('change',function(){if(sel.value==='geo'){store(KEY,'geo');useGeo();}else useCity(sel.value);});
+  var start=load(KEY)||DEFAULT;
+  if(start==='geo'){sel.value='geo';if(!load(KEY_GEO))setLoc(CITIES[DEFAULT]);useGeo();}else useCity(start);
+  document.addEventListener('visibilitychange',function(){if(!document.hidden){state=null;tick();}});
+})();
+</script>
+<!-- ═══ end nx-sabbat ═══ -->
+<!-- ═══ Nexus · Silence (nx-silence) (EN) ═══ -->
+<style>
+.nx-silence-card{margin:0 0 16px;min-height:0}
+.nx-silence-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px 24px;flex-wrap:wrap}
+.nx-silence-top h3{margin-bottom:6px}
+.nx-silence-lead{color:var(--ink-soft,#B5AFA2);font-size:14px;line-height:1.55;margin-top:4px}
+.nx-silence-durs{display:flex;gap:0;border:1px solid var(--black-rule,#262522)}
+.nx-silence-durs button{background:transparent;border:0;color:var(--ink-soft,#B5AFA2);font:300 12px 'Josefin Sans',sans-serif;letter-spacing:.16em;text-transform:uppercase;padding:10px 16px;cursor:pointer}
+.nx-silence-durs button+button{border-left:1px solid var(--black-rule,#262522)}
+.nx-silence-durs button[aria-pressed="true"]{background:var(--black,#0D0D0D);color:var(--gold,#C9A96E)}
+.nx-silence-durs button:disabled{cursor:default;opacity:.5}
+.nx-silence-body{display:flex;align-items:center;gap:28px;margin:24px 0 6px;flex-wrap:wrap}
+.nx-silence-ring{position:relative;width:168px;height:168px;flex:0 0 auto}
+.nx-silence-ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.nx-silence-ring circle{fill:none;stroke-width:2}
+.nx-silence-track{stroke:var(--black-rule,#262522)}
+.nx-silence-arc{stroke:var(--gold,#C9A96E);stroke-linecap:round}
+.nx-silence-time{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--ink,#F5F0E8);font:200 44px/1 'Josefin Sans',sans-serif;font-variant-numeric:tabular-nums;transition:opacity 1.2s ease}
+.nx-silence-side{flex:1 1 220px;min-width:0}
+.nx-silence-actions{display:flex;gap:10px;flex-wrap:wrap}
+.nx-silence-btn{background:transparent;border:1px solid var(--gold,#C9A96E);color:var(--gold,#C9A96E);font:300 12px 'Josefin Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;padding:11px 20px;cursor:pointer}
+.nx-silence-btn:hover{background:rgba(201,169,110,.08)}
+.nx-silence-btn.is-ghost{border-color:var(--black-rule,#262522);color:var(--ink-soft,#B5AFA2)}
+.nx-silence-btn[hidden]{display:none}
+.nx-silence-card button:focus-visible{outline:2px solid var(--gold,#C9A96E);outline-offset:2px}
+.nx-silence-msg{margin-top:18px;color:var(--gold,#C9A96E);font:300 17px/1.5 'Josefin Sans',sans-serif;letter-spacing:.03em;opacity:0;transition:opacity 1.6s ease;min-height:1.5em}
+.nx-silence-msg small{display:block;color:var(--ink-faint,#6B6A62);font:400 12px 'Inter',sans-serif;letter-spacing:0;margin-top:4px}
+.nx-silence-card.is-done .nx-silence-msg{opacity:1}
+.nx-silence-card.is-done .nx-silence-time{opacity:.35}
+.nx-silence-card.is-running{border-top-color:var(--gold,#C9A96E)}
+.nx-silence-chime{display:inline-flex;align-items:center;gap:8px;margin-top:16px;color:var(--ink-faint,#6B6A62);font-size:12px;cursor:pointer}
+.nx-silence-chime input{accent-color:var(--gold,#C9A96E)}
+@media(max-width:620px){.nx-silence-body{flex-direction:column;align-items:flex-start}.nx-silence-ring{width:150px;height:150px;align-self:center}.nx-silence-time{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.nx-silence-time,.nx-silence-msg{transition:none}}
+</style>
+<article class="time-card nx-silence-card" id="nx-silence">
+  <div class="nx-silence-top">
+    <div>
+      <div class="time-kicker">Sacred time</div>
+      <h3>A moment of silence</h3>
+      <p class="nx-silence-lead">Choose a duration, then let time pass.</p>
+    </div>
+    <div class="nx-silence-durs" role="group" aria-label="Duration">
+      <button type="button" data-nx-silence-dur="60" aria-pressed="true">1 minute</button>
+      <button type="button" data-nx-silence-dur="300" aria-pressed="false">5 minutes</button>
+    </div>
+  </div>
+  <div class="nx-silence-body">
+    <div class="nx-silence-ring">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><circle class="nx-silence-track" cx="50" cy="50" r="46"/><circle class="nx-silence-arc" cx="50" cy="50" r="46" data-nx-silence-arc/></svg>
+      <div class="nx-silence-time" role="timer" aria-label="Time remaining" data-nx-silence-time>1:00</div>
+    </div>
+    <div class="nx-silence-side">
+      <div class="nx-silence-actions">
+        <button type="button" class="nx-silence-btn" data-nx-silence-start>Start</button>
+        <button type="button" class="nx-silence-btn is-ghost" data-nx-silence-reset hidden>Restart</button>
+      </div>
+      <div class="nx-silence-msg" aria-live="polite" data-nx-silence-msg></div>
+      <label class="nx-silence-chime"><input type="checkbox" data-nx-silence-chime> Soft chime at the end</label>
+    </div>
+  </div>
+</article>
+<script>
+(function(){
+  var root=document.getElementById('nx-silence'); if(!root) return;
+  var $=function(s){return root.querySelector(s)};
+  var timeEl=$('[data-nx-silence-time]'),arc=$('[data-nx-silence-arc]'),startBtn=$('[data-nx-silence-start]'),
+      resetBtn=$('[data-nx-silence-reset]'),msg=$('[data-nx-silence-msg]'),chime=$('[data-nx-silence-chime]'),
+      durBtns=root.querySelectorAll('[data-nx-silence-dur]');
+  var C=2*Math.PI*46; arc.style.strokeDasharray=C;
+  var dur=60000,state='idle',endAt=0,remain=dur,raf=0,tick=0,actx=null;
+  function fmt(ms){var s=Math.ceil(ms/1000);return Math.floor(s/60)+':'+('0'+s%60).slice(-2)}
+  function draw(){timeEl.textContent=fmt(remain);arc.style.strokeDashoffset=C*(remain/dur)}
+  function loop(){
+    if(state!=='running') return;
+    remain=Math.max(0,endAt-Date.now()); draw();
+    if(remain<=0){finish();return}
+    raf=requestAnimationFrame(loop);
+  }
+  function stopLoops(){cancelAnimationFrame(raf);clearInterval(tick)}
+  function setBtns(){
+    startBtn.textContent=state==='running'?'Pause':state==='paused'?'Resume':'Start';
+    startBtn.hidden=state==='done'; resetBtn.hidden=state==='idle';
+    for(var i=0;i<durBtns.length;i++) durBtns[i].disabled=(state==='running'||state==='paused');
+    root.classList.toggle('is-running',state==='running'); root.classList.toggle('is-done',state==='done');
+  }
+  function start(){
+    if(chime.checked) ensureAudio();
+    endAt=Date.now()+remain; state='running'; msg.innerHTML='';
+    stopLoops(); raf=requestAnimationFrame(loop);
+    tick=setInterval(function(){if(document.hidden) loop()},1000); // rAF is paused in background tabs
+    setBtns();
+  }
+  function pause(){remain=Math.max(0,endAt-Date.now());state='paused';stopLoops();draw();setBtns()}
+  function finish(){
+    stopLoops(); remain=0; state='done'; draw(); setBtns();
+    msg.innerHTML='“Be still, and know that I am God.”<small>Psalm 46:10</small>';
+    if(chime.checked) playChime();
+  }
+  function reset(){stopLoops();state='idle';remain=dur;msg.innerHTML='';draw();setBtns()}
+  function ensureAudio(){
+    try{actx=actx||new (window.AudioContext||window.webkitAudioContext)(); if(actx.state==='suspended') actx.resume();}catch(e){actx=null}
+  }
+  function playChime(){
+    ensureAudio(); if(!actx) return;
+    var t=actx.currentTime;
+    [528,792].forEach(function(f,i){
+      var o=actx.createOscillator(),g=actx.createGain();
+      o.type='sine';o.frequency.value=f;
+      g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(i?0.03:0.06,t+0.05);
+      g.gain.exponentialRampToValueAtTime(0.0001,t+4);
+      o.connect(g);g.connect(actx.destination);o.start(t);o.stop(t+4.1);
+    });
+  }
+  startBtn.addEventListener('click',function(){state==='running'?pause():start()});
+  resetBtn.addEventListener('click',reset);
+  chime.addEventListener('change',function(){if(chime.checked) ensureAudio()});
+  for(var i=0;i<durBtns.length;i++) durBtns[i].addEventListener('click',function(){
+    dur=+this.getAttribute('data-nx-silence-dur')*1000;
+    for(var j=0;j<durBtns.length;j++) durBtns[j].setAttribute('aria-pressed',durBtns[j]===this);
+    reset();
+  });
+  document.addEventListener('visibilitychange',function(){if(!document.hidden&&state==='running') loop()});
+  draw();
+})();
+</script>
+<!-- ═══ end nx-silence ═══ -->
     <div class="time-grid">
       <article class="time-card" data-time-date="2026-07-30"><div class="time-kicker">world · 2026 edition</div><h3>Earth Overshoot Day</h3><div class="time-date">July 30, 2026</div><div class="time-count"><strong data-count>—</strong><span data-unit>days since</span></div><div class="time-source"><a href="https://overshoot.footprintnetwork.org/newsroom/press-release-june-2026-english/" target="_blank" rel="noopener noreferrer">Global Footprint Network ↗</a></div></article>
       <article class="time-card" data-time-date="2026-03-08"><div class="time-kicker">Canada · 2026 edition</div><h3>If everyone lived like Canadians</h3><div class="time-date">March 8, 2026</div><div class="time-count"><strong data-count>—</strong><span data-unit>days since</span></div><div class="time-source"><a href="https://overshoot.footprintnetwork.org/newsroom/country-overshoot-days/" target="_blank" rel="noopener noreferrer">Global Footprint Network ↗</a></div></article>
