@@ -550,6 +550,13 @@ section + section { margin-top:94px; }
 /* Header mark sized by its visible artwork, with a brighter burgundy X. */
 .logo-link img { height:56px; width:auto; }
 @media(max-width:760px) { .logo-link img { height:50px; } }
+
+/* TransLive has a direct contact path for prospective users. */
+.tool-invite { color:var(--ink); font-size:15px; line-height:1.65; margin-top:4px; }
+.tool-actions { align-items:center; flex-wrap:wrap; gap:12px 24px; }
+.tool-actions a { text-decoration:none; }
+.tool-actions .card-link:hover,.tool-secondary:hover { color:var(--ink); }
+.tool-secondary { color:var(--ink-soft); font:300 12px 'Josefin Sans',sans-serif; letter-spacing:.12em; text-transform:uppercase; }
 </style>
 </head>
 <body>
@@ -610,17 +617,15 @@ section + section { margin-top:94px; }
       <a href="#outils" class="section-link">what I build</a>
     </div>
     <div class="grid">
-      <a href="https://translive.nexusvie.com" class="card">
-        <div class="card-head">
-          <div class="card-name">TransLive</div>
-          <div class="card-tag">online</div>
-        </div>
+      <div class="card tool-card">
+        <div class="card-head"><div class="card-name">TransLive</div><div class="card-tag">online</div></div>
         <div class="card-desc">Live interpretation for churches, conferences, and events. Participants listen on their phones using a QR code.</div>
-        <div class="card-foot">
-          <div class="card-link">open →</div>
-          <div class="card-nexus">by nexus</div>
+        <p class="tool-invite">Would you like to use TransLive for your church or event? Email me to discuss it.</p>
+        <div class="card-foot tool-actions">
+          <a class="card-link" href="mailto:contact@nexusvie.com?subject=TransLive">contact me →</a>
+          <a class="tool-secondary" href="https://translive.nexusvie.com" target="_blank" rel="noopener noreferrer">view the app ↗</a>
         </div>
-      </a>
+      </div>
     </div>
   </section>
 

@@ -550,6 +550,13 @@ section + section { margin-top:94px; }
 /* Header mark sized by its visible artwork, with a brighter burgundy X. */
 .logo-link img { height:56px; width:auto; }
 @media(max-width:760px) { .logo-link img { height:50px; } }
+
+/* TransLive has a direct contact path for prospective users. */
+.tool-invite { color:var(--ink); font-size:15px; line-height:1.65; margin-top:4px; }
+.tool-actions { align-items:center; flex-wrap:wrap; gap:12px 24px; }
+.tool-actions a { text-decoration:none; }
+.tool-actions .card-link:hover,.tool-secondary:hover { color:var(--ink); }
+.tool-secondary { color:var(--ink-soft); font:300 12px 'Josefin Sans',sans-serif; letter-spacing:.12em; text-transform:uppercase; }
 </style>
 </head>
 <body>
@@ -610,17 +617,15 @@ section + section { margin-top:94px; }
       <a href="#outils" class="section-link">ce que je construis</a>
     </div>
     <div class="grid">
-      <a href="https://translive.nexusvie.com" class="card">
-        <div class="card-head">
-          <div class="card-name">TransLive</div>
-          <div class="card-tag">en ligne</div>
-        </div>
+      <div class="card tool-card">
+        <div class="card-head"><div class="card-name">TransLive</div><div class="card-tag">en ligne</div></div>
         <div class="card-desc">Interprétation en direct pour églises, conférences et événements. Les participants écoutent sur leur téléphone via un QR code.</div>
-        <div class="card-foot">
-          <div class="card-link">ouvrir →</div>
-          <div class="card-nexus">par nexus</div>
+        <p class="tool-invite">Vous souhaitez utiliser TransLive pour votre église ou votre événement&nbsp;? Écrivez-moi pour en discuter.</p>
+        <div class="card-foot tool-actions">
+          <a class="card-link" href="mailto:contact@nexusvie.com?subject=TransLive">me contacter →</a>
+          <a class="tool-secondary" href="https://translive.nexusvie.com" target="_blank" rel="noopener noreferrer">voir l’application ↗</a>
         </div>
-      </a>
+      </div>
     </div>
   </section>
 
