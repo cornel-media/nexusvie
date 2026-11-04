@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#0D0D0D">
 <link rel="alternate" hreflang="fr" href="https://nexusvie.com/">
 <link rel="alternate" hreflang="en" href="https://nexusvie.com/en/">
-<link rel="icon" href="/brand/nexus-logo-transparent.png" type="image/png">
+<link rel="icon" href="/brand/nexus-logo-header.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -475,6 +475,81 @@
   #videos .video-card .card-desc { font-size: 14px; }
   #videos .video-card .card-foot { margin-top: auto; }
   @media (max-width: 620px) { #videos .grid { grid-template-columns: 1fr; max-width: 480px; } }
+
+/* Nexus home preview: editorial rhythm and a featured reading */
+.wrap { max-width: 1280px; }
+.hero { padding: 88px 0 98px; margin-bottom: 74px; }
+.hero h1 { max-width: 980px; font-size: clamp(48px, 5.1vw, 78px); }
+.hero p { max-width: 700px; margin-top: 30px; }
+.hero-actions { display:flex; align-items:center; flex-wrap:wrap; gap:26px; margin-top:32px; }
+.hero-action { display:inline-flex; align-items:center; min-height:46px; padding:0 20px; border:1px solid var(--gold); color:var(--gold); text-decoration:none; font:300 12px 'Josefin Sans',sans-serif; letter-spacing:.13em; text-transform:uppercase; transition:background .2s,color .2s; }
+.hero-action:hover { background:var(--gold); color:var(--black); }
+.hero-action-secondary { border:0; padding:0; color:var(--ink-soft); }
+.hero-action-secondary:hover { background:none; color:var(--gold); }
+section { scroll-margin-top:28px; }
+section + section { margin-top:94px; }
+.section-head { margin-bottom:22px; }
+#reflexions .grid { max-width:none; }
+.featured-card { display:grid; grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr); gap:0; padding:0; min-height:370px; border-color:rgba(211,176,120,.25); }
+.featured-card::before { display:none; }
+.featured-image-wrap { position:relative; min-height:370px; overflow:hidden; background:#201d1a; }
+.featured-image { width:100%; height:100%; object-fit:cover; display:block; transition:transform .45s ease; }
+.featured-card:hover .featured-image { transform:scale(1.035); }
+.featured-copy { display:flex; flex-direction:column; justify-content:center; gap:20px; padding:44px 46px; }
+.featured-kicker { color:var(--gold); font:300 11px 'Josefin Sans',sans-serif; letter-spacing:.23em; text-transform:uppercase; }
+.featured-card .card-name { font-size:clamp(38px,4.2vw,60px); line-height:1.07; }
+.featured-card .card-desc { font-size:17px; max-width:380px; }
+.featured-card .card-foot { margin-top:14px; }
+#videos .grid { max-width:850px; }
+#newsletter { padding:42px 48px 44px; border:1px solid rgba(211,176,120,.24); background:linear-gradient(110deg,rgba(211,176,120,.055),rgba(123,30,46,.055)); }
+#newsletter .section-head { margin-bottom:18px; }
+#newsletter .newsletter-intro { max-width:680px; }
+#podcast .empty { max-width:760px; }
+@media(max-width:760px) {
+ .hero { padding:48px 0 60px; margin-bottom:62px; }
+ .hero p { margin-top:22px; }
+ section + section { margin-top:70px; }
+ .featured-card { grid-template-columns:1fr; }
+ .featured-image-wrap { min-height:250px; height:42vw; }
+ .featured-copy { padding:30px 26px 32px; gap:16px; }
+ .featured-card .card-name { font-size:40px; }
+ #newsletter { padding:30px 25px 32px; }
+}
+@media(max-width:480px) { .featured-image-wrap { height:230px; min-height:230px; } .hero-actions { gap:13px 22px; } }
+
+/* Hero typography study: a distinct title, quieter explanatory note. */
+.hero { display:grid; grid-template-columns:minmax(0,1.75fr) minmax(250px,.75fr); column-gap:46px; align-items:end; min-height:0; padding:70px 0 62px; }
+.hero .signature-line { grid-column:1/-1; margin-bottom:32px; }
+.hero h1 { grid-column:1; margin:0; font-size:clamp(48px,5.2vw,73px); line-height:1.07; letter-spacing:-.035em; max-width:none; }
+.hero-title-intro { display:block; font-size:clamp(26px,2.65vw,36px); line-height:1.28; letter-spacing:-.015em; color:var(--ink-soft); margin-bottom:15px; }
+.hero-title-line { display:block; }
+.hero h1 .accent { color:var(--ink); }
+.hero h1 .cut { color:var(--gold); }
+.hero-aside { grid-column:2; padding:0 0 5px 23px; border-left:2px solid var(--burgundy); }
+.hero-aside-mark { display:block; margin-bottom:17px; color:var(--gold); font:300 11px 'Josefin Sans',sans-serif; letter-spacing:.24em; }
+.hero-aside p { margin:0; font-size:16px; line-height:1.7; max-width:270px; }
+.hero-actions { grid-column:1/-1; margin-top:48px; }
+@media(max-width:900px) { .hero { grid-template-columns:1fr; gap:0; } .hero h1 { grid-column:1; } .hero-aside { grid-column:1; margin-top:36px; max-width:580px; } .hero-aside p { max-width:540px; } .hero-actions { margin-top:35px; } }
+@media(max-width:620px) { .hero { padding:42px 0 48px; } .hero .signature-line { margin-bottom:24px; } .hero h1 { font-size:clamp(44px,10vw,62px); } .hero-title-intro { font-size:24px; margin-bottom:11px; } .hero-aside { margin-top:30px; padding-left:17px; } .hero-aside p { font-size:15.5px; } }
+
+/* A restrained first-load motion for the hero. */
+@keyframes nexus-rise { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:translateY(0); } }
+@keyframes nexus-rule { from { transform:scaleY(0); } to { transform:scaleY(1); } }
+.hero .signature-line { animation:nexus-rise .65s ease-out both; }
+.hero-title-intro { animation:nexus-rise .7s ease-out .12s both; }
+.hero-title-line:nth-child(2) { animation:nexus-rise .7s ease-out .22s both; }
+.hero-title-line:nth-child(3) { animation:nexus-rise .7s ease-out .34s both; }
+.hero-aside { animation:nexus-rise .75s ease-out .52s both; }
+.hero-aside::before { content:''; position:absolute; left:-2px; top:0; width:2px; height:100%; background:var(--burgundy); transform-origin:top; animation:nexus-rule .7s ease-out .55s both; }
+.hero-aside { position:relative; border-left-color:transparent; }
+.hero-actions { animation:nexus-rise .7s ease-out .7s both; }
+@media(prefers-reduced-motion:reduce) {
+ .hero .signature-line,.hero-title-intro,.hero-title-line:nth-child(2),.hero-title-line:nth-child(3),.hero-aside,.hero-aside::before,.hero-actions { animation:none !important; }
+}
+
+/* Header mark sized by its visible artwork, with a brighter burgundy X. */
+.logo-link img { height:56px; width:auto; }
+@media(max-width:760px) { .logo-link img { height:50px; } }
 </style>
 </head>
 <body>
@@ -482,7 +557,7 @@
 
   <header class="top">
     <a href="/" class="logo-link" aria-label="Nexus">
-      <img src="/brand/nexus-logo-transparent.png" alt="Nexus">
+      <img src="/brand/nexus-logo-header.png" alt="Nexus">
     </a>
     <nav class="nav-links">
       <a href="#reflexions">reflections</a>
@@ -497,8 +572,9 @@
 
   <section class="hero">
     <div class="signature-line"><span>Cornel Serban</span></div>
-    <h1>At the intersection of <span class="accent">faith</span>, <span class="accent cut">thought</span>, and <span class="accent">technology</span>.</h1>
-    <p>Some connections only come into view when we step back. Nexus is where I follow them — through faith, questions, and creation.</p>
+    <h1><span class="hero-title-intro">At the intersection of</span><span class="hero-title-line"><span class="accent">faith</span>, <span class="accent cut">thought</span>,</span><span class="hero-title-line">and technology.</span></h1>
+    <div class="hero-aside"><span class="hero-aside-mark" aria-hidden="true">N / 01</span><p>Some connections only come into view when we step back. Nexus is where I follow them — through faith, questions, and creation.</p></div>
+    <div class="hero-actions"><a class="hero-action" href="#reflexions">Read the meditation →</a><a class="hero-action hero-action-secondary" href="#videos">Explore the videos ↗</a></div>
   </section>
 
   <section id="reflexions">
@@ -506,7 +582,7 @@
       <div class="section-label">reflections</div>
       <a href="#reflexions" class="section-link">meditations</a>
     </div>
-    <div class="grid"><a href="/en/meditations/before-daybreak/" class="card"><div class="card-head"><div class="card-name">Before Daybreak</div><div class="card-tag">Meditation 01</div></div><div class="card-desc">It is still dark when Jesus rises to pray. A meditation on silence and taking the first step.</div><div class="card-foot"><div class="card-link">read →</div><div class="card-nexus">Mark 1:35</div></div></a></div>
+    <div class="grid"><a href="/en/meditations/before-daybreak/" class="card featured-card"><div class="featured-image-wrap"><img class="featured-image" src="/assets/meditations/avant-le-jour.jpg" alt="First light over a quiet landscape" decoding="async"></div><div class="featured-copy"><div class="featured-kicker">Meditation 01 · Mark 1:35</div><div class="card-name">Before Daybreak</div><div class="card-desc">It is still dark when Jesus rises to pray. A meditation on silence and taking the first step.</div><div class="card-foot"><div class="card-link">read the meditation →</div></div></div></a></div>
   </section>
 
   <section id="videos">
