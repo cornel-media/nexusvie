@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/en/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -179,6 +179,42 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
     <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/epiousios-quotidien/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/epiousios-daily/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/epiousios-cotidiano/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/epiousios-de-toate-zilele/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/epiousios-daily/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/epiousios-daily/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/epiousios-cotidiano/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/epiousios-de-toate-zilele/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/epiousios-cotidiano/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/epiousios-daily/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/epiousios-cotidiano/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/epiousios-de-toate-zilele/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/epiousios-de-toate-zilele/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/epiousios-daily/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/epiousios-cotidiano/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/epiousios-de-toate-zilele/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/epiousios-quotidien/"/>
   </url>
   <url>
     <loc>https://nexusvie.com/meditations/pause/</loc>
