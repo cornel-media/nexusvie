@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nexusvie.com/</loc>
+    <loc>https://nexusvie.com</loc>
     <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/"/>
   </url>
   <url>
@@ -12,195 +14,35 @@
     <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/"/>
   </url>
   <url>
-    <loc>https://nexusvie.com/meditations/pause/</loc>
-    <lastmod>2026-11-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/pause/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/pause/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/pause/"/>
+    <loc>https://nexusvie.com/es/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/"/>
   </url>
   <url>
-    <loc>https://nexusvie.com/en/meditations/pause/</loc>
-    <lastmod>2026-11-07</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/pause/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/pause/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/pause/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/meditations/me-voici/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/me-voici/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/here-i-am/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/me-voici/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/meditations/here-i-am/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/me-voici/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/here-i-am/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/me-voici/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/meditations/un-temps-pour-chaque-chose/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/a-time-for-everything/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/meditations/a-time-for-everything/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/a-time-for-everything/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/meditations/ce-qui-demeure/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/what-remains/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/meditations/what-remains/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/what-remains/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/meditations/avant-le-jour/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/avant-le-jour/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/before-daybreak/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/avant-le-jour/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/meditations/before-daybreak/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/avant-le-jour/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/before-daybreak/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/avant-le-jour/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/ia-accelere-sa-recherche/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/agents-appels-telephone/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/ia-bacteries-pandemies/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/</loc>
-    <lastmod>2026-11-06</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/ia-meteo-semaines/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/ia-pierres-shivta/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-stones-of-shivta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-stones-of-shivta/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-stones-of-shivta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/curiosites/ia-proteines-sur-mesure/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-designed-proteins/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
-  </url>
-  <url>
-    <loc>https://nexusvie.com/en/curiosities/ai-designed-proteins/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-designed-proteins/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+    <loc>https://nexusvie.com/ro/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/"/>
   </url>
   <url>
     <loc>https://nexusvie.com/reels/</loc>
     <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/reels/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/reels/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/reels/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/reels/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/reels/"/>
   </url>
   <url>
@@ -208,13 +50,71 @@
     <lastmod>2026-11-07</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/reels/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/reels/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/reels/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/reels/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/reels/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/reels/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/reels/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/reels/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/reels/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/reels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/reels/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/reels/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/reels/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/reels/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/reels/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/reels/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/reels/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/"/>
   </url>
   <url>
     <loc>https://nexusvie.com/lettres/01/</loc>
     <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/lettres/01/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/letters/01/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/cartas/01/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/scrisori/01/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/lettres/01/"/>
   </url>
   <url>
@@ -222,6 +122,26 @@
     <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/lettres/01/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/letters/01/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/cartas/01/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/scrisori/01/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/lettres/01/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/cartas/01/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/lettres/01/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/letters/01/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/cartas/01/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/scrisori/01/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/lettres/01/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/scrisori/01/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/lettres/01/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/letters/01/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/cartas/01/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/scrisori/01/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/lettres/01/"/>
   </url>
   <url>
@@ -229,6 +149,8 @@
     <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/confidentialite/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
   </url>
   <url>
@@ -236,6 +158,458 @@
     <lastmod>2026-11-04</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/confidentialite/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/privacidad/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/confidentialitate/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/confidentialite/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/pause/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/pausa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/pauza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/pause/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/pause/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/pausa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/pauza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/pause/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/pausa/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/pausa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/pauza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/pause/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/pauza/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/pause/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/pausa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/pauza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/pause/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/me-voici/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/me-voici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/here-i-am/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/heme-aqui/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/iata-ma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/me-voici/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/here-i-am/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/me-voici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/here-i-am/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/heme-aqui/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/iata-ma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/me-voici/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/heme-aqui/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/me-voici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/here-i-am/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/heme-aqui/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/iata-ma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/me-voici/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/iata-ma/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/me-voici/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/here-i-am/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/heme-aqui/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/iata-ma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/me-voici/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/un-temps-pour-chaque-chose/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/a-time-for-everything/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/un-tiempo-para-cada-cosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/un-timp-pentru-fiecare-lucru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/a-time-for-everything/</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/a-time-for-everything/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/un-tiempo-para-cada-cosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/un-timp-pentru-fiecare-lucru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/un-tiempo-para-cada-cosa/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/a-time-for-everything/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/un-tiempo-para-cada-cosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/un-timp-pentru-fiecare-lucru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/un-timp-pentru-fiecare-lucru/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/a-time-for-everything/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/un-tiempo-para-cada-cosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/un-timp-pentru-fiecare-lucru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/un-temps-pour-chaque-chose/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/ce-qui-demeure/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/what-remains/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/lo-que-permanece/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/ceea-ce-ramane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/what-remains/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/what-remains/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/lo-que-permanece/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/ceea-ce-ramane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/lo-que-permanece/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/what-remains/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/lo-que-permanece/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/ceea-ce-ramane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/ceea-ce-ramane/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/what-remains/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/lo-que-permanece/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/ceea-ce-ramane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ce-qui-demeure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/avant-le-jour/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/before-daybreak/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/antes-del-alba/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/inainte-de-zi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/before-daybreak/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/before-daybreak/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/antes-del-alba/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/inainte-de-zi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/antes-del-alba/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/before-daybreak/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/antes-del-alba/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/inainte-de-zi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/inainte-de-zi/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/before-daybreak/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/antes-del-alba/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/inainte-de-zi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/avant-le-jour/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/ia-accelere-sa-recherche/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/la-ia-acelera-su-propia-investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/ia-isi-accelereaza-propria-cercetare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/la-ia-acelera-su-propia-investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/ia-isi-accelereaza-propria-cercetare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/la-ia-acelera-su-propia-investigacion/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/la-ia-acelera-su-propia-investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/ia-isi-accelereaza-propria-cercetare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/ia-isi-accelereaza-propria-cercetare/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-speeds-up-its-own-research/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/la-ia-acelera-su-propia-investigacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/ia-isi-accelereaza-propria-cercetare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-accelere-sa-recherche/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/agents-appels-telephone/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/agentes-que-hacen-llamadas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/agenti-care-dau-telefoane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/agentes-que-hacen-llamadas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/agenti-care-dau-telefoane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/agentes-que-hacen-llamadas/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/agentes-que-hacen-llamadas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/agenti-care-dau-telefoane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/agenti-care-dau-telefoane/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-agents-make-phone-calls/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/agentes-que-hacen-llamadas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/agenti-care-dau-telefoane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/agents-appels-telephone/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/una-ia-corrige-otra-sin-reentrenarla/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-ia-corecteaza-alta-fara-reantrenare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/una-ia-corrige-otra-sin-reentrenarla/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-ia-corecteaza-alta-fara-reantrenare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/una-ia-corrige-otra-sin-reentrenarla/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/una-ia-corrige-otra-sin-reentrenarla/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-ia-corecteaza-alta-fara-reantrenare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/o-ia-corecteaza-alta-fara-reantrenare/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-fixes-ai-without-retraining/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/una-ia-corrige-otra-sin-reentrenarla/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-ia-corecteaza-alta-fara-reantrenare/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-corrige-ia-sans-reentrainement/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/ia-proteines-sur-mesure/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-designed-proteins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/describir-una-proteina/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/descrii-o-proteina-si-ia-o-proiecteaza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-designed-proteins/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-designed-proteins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/describir-una-proteina/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/descrii-o-proteina-si-ia-o-proiecteaza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/describir-una-proteina/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-designed-proteins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/describir-una-proteina/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/descrii-o-proteina-si-ia-o-proiecteaza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/descrii-o-proteina-si-ia-o-proiecteaza/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-designed-proteins/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/describir-una-proteina/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/descrii-o-proteina-si-ia-o-proiecteaza/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-proteines-sur-mesure/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/ia-bacteries-pandemies/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/detectar-una-bacteria-peligrosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-bacterie-periculoasa-inainte-de-primul-bolnav/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/detectar-una-bacteria-peligrosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-bacterie-periculoasa-inainte-de-primul-bolnav/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/detectar-una-bacteria-peligrosa/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/detectar-una-bacteria-peligrosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-bacterie-periculoasa-inainte-de-primul-bolnav/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/o-bacterie-periculoasa-inainte-de-primul-bolnav/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-dangerous-bacteria/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/detectar-una-bacteria-peligrosa/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/o-bacterie-periculoasa-inainte-de-primul-bolnav/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-bacteries-pandemies/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/ia-meteo-semaines/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/el-tiempo-con-semanas-de-antelacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/vremea-cu-trei-patru-saptamani-inainte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/el-tiempo-con-semanas-de-antelacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/vremea-cu-trei-patru-saptamani-inainte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/el-tiempo-con-semanas-de-antelacion/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/el-tiempo-con-semanas-de-antelacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/vremea-cu-trei-patru-saptamani-inainte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/vremea-cu-trei-patru-saptamani-inainte/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-weather-weeks-ahead/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/el-tiempo-con-semanas-de-antelacion/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/vremea-cu-trei-patru-saptamani-inainte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-meteo-semaines/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/curiosites/ia-pierres-shivta/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-stones-of-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/250000-piedras-cuentan-un-pueblo/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/250000-de-pietre-povestesc-un-sat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/curiosities/ai-stones-of-shivta/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-stones-of-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/250000-piedras-cuentan-un-pueblo/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/250000-de-pietre-povestesc-un-sat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/curiosidades/250000-piedras-cuentan-un-pueblo/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-stones-of-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/250000-piedras-cuentan-un-pueblo/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/250000-de-pietre-povestesc-un-sat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/curiozitati/250000-de-pietre-povestesc-un-sat/</loc>
+    <lastmod>2026-11-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/curiosities/ai-stones-of-shivta/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/curiosidades/250000-piedras-cuentan-un-pueblo/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/curiozitati/250000-de-pietre-povestesc-un-sat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/curiosites/ia-pierres-shivta/"/>
   </url>
 </urlset>
