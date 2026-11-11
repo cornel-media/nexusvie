@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://nexusvie.com</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/en/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/es/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -29,7 +29,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/ro/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -179,6 +179,78 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
     <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/ne-pas-oublier/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/do-not-forget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/no-olvidar/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/a-nu-uita/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/do-not-forget/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/do-not-forget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/no-olvidar/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/a-nu-uita/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/no-olvidar/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/do-not-forget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/no-olvidar/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/a-nu-uita/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/a-nu-uita/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/do-not-forget/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/no-olvidar/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/a-nu-uita/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/ne-pas-oublier/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/trop-d-onglets-ouverts/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/too-many-tabs-open/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/demasiadas-pestanas-abiertas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/prea-multe-file-deschise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/too-many-tabs-open/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/too-many-tabs-open/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/demasiadas-pestanas-abiertas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/prea-multe-file-deschise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/demasiadas-pestanas-abiertas/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/too-many-tabs-open/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/demasiadas-pestanas-abiertas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/prea-multe-file-deschise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/prea-multe-file-deschise/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/too-many-tabs-open/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/demasiadas-pestanas-abiertas/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/prea-multe-file-deschise/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/trop-d-onglets-ouverts/"/>
   </url>
   <url>
     <loc>https://nexusvie.com/meditations/chaque-matin-a-nouveau/</loc>
