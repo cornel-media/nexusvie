@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://nexusvie.com</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/en/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/es/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -29,7 +29,7 @@
   </url>
   <url>
     <loc>https://nexusvie.com/ro/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/"/>
@@ -179,6 +179,42 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/privacidad/"/>
     <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/confidentialitate/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/confidentialite/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/take-your-ideas-out-to-the-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/saca-tus-ideas-a-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/scoate-ti-ideile-pe-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/en/meditations/take-your-ideas-out-to-the-veranda/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/take-your-ideas-out-to-the-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/saca-tus-ideas-a-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/scoate-ti-ideile-pe-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/es/meditaciones/saca-tus-ideas-a-la-veranda/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/take-your-ideas-out-to-the-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/saca-tus-ideas-a-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/scoate-ti-ideile-pe-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+  </url>
+  <url>
+    <loc>https://nexusvie.com/ro/meditatii/scoate-ti-ideile-pe-veranda/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexusvie.com/en/meditations/take-your-ideas-out-to-the-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexusvie.com/es/meditaciones/saca-tus-ideas-a-la-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://nexusvie.com/ro/meditatii/scoate-ti-ideile-pe-veranda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nexusvie.com/meditations/sors-tes-idees-sur-la-veranda/"/>
   </url>
   <url>
     <loc>https://nexusvie.com/meditations/un-murmure/</loc>
